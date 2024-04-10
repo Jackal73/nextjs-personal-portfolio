@@ -85,14 +85,14 @@ const Navbar = () => {
       </div>
 
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-1/3 md:justify-center">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
       </div>
 
       {/* SOCIAL */}
-      <div className="hidden md:flex md:justify- gap-4 w-1/3">
+      <div className="hidden md:flex md:justify-end gap-4 w-1/3">
         <Link href="https://github.com/Jackal73">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
